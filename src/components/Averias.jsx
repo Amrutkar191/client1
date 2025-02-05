@@ -59,9 +59,9 @@ const Averias = () => {
   };
 
   return (
-    <div className="bg-gray-200 min-h-screen p-8">
+    <div className="bg-gray-200 min-h-screen px-4 sm:px-4">
       {/* Filter Controls */}
-      <div className="grid grid-cols-4 gap-4 mb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-4">
         <div>
           <label className="block text-[11px] font-bold text-gray-900 mb-1">Máquina</label>
           <select className="w-full h-[36px] pl-[8px] pr-[8px] bg-white text-xs outline-none font-normal text-gray-400 border border-gray-100 rounded">
@@ -89,7 +89,7 @@ const Averias = () => {
           />
         </div>
       </div>
-      <div className="bg-white p-6 rounded-lg shadow-md">
+      <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md">
 
         {/* Action Buttons */}
         <div className="flex items-center gap-4 mb-4">

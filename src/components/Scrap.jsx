@@ -3,8 +3,8 @@ import React from "react";
 const Scrap = () => {
   return (
     <div className="bg-gray-200 min-h-screen flex items-start justify-center">
-      <form className="bg-gray-200  px-10 py-4 rounded-lg  w-full ">
-        <div className="grid grid-cols-3 gap-4">
+      <form className="bg-gray-200  px-4 rounded-lg  w-full ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Máquina */}
           <div>
             <label className="block text-[11px] font-bold text-gray-900 mb-1">
@@ -46,7 +46,7 @@ const Scrap = () => {
           </div>
 
           {/* Descripción */}
-          <div className="col-span-3">
+          <div className="col-span-1 sm:col-span-2 lg:col-span-3">
             <label className="block text-[11px] font-bold text-gray-900 mb-1">
               Descripción
             </label>
