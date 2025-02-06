@@ -92,7 +92,7 @@ const Averias = () => {
       <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md">
 
         {/* Action Buttons */}
-        <div className="flex items-center gap-4 mb-4">
+        <div className=" flex flex-wrap items-center gap-4 mb-4 ">
           <button
             className="bg-blue-570 h-[30px] text-xs text-white px-4 py-2 rounded-lg hover:bg-blue-590"
             onClick={() => openModal("edit", data[0])} // Opens edit modal for the first row as an example
@@ -190,8 +190,8 @@ const Averias = () => {
         {/* Modals */}
         {isModalOpen && (
           <div className="fixed inset-0 bg-gray-500 bg-opacity-50 flex items-center justify-center">
-            <div className="bg-white rounded-lg shadow-md w-[500px]">
-              <div className="flex justify-between items-center bg-gray-100 rounded-t-lg">
+            <div className="bg-white rounded-lg shadow-md sm:w-[500px]">
+              <div className="flex justify-between items-center bg-gray-100 rounded-t-lgv">
                 <h3 className="text-[18px] p-[10px] font-bold">
                   {modalType === "edit" ? "Editar Pop-up Window" : modalType === "agrupar" ? "Agrupar Pop-up Window" : "Dividir Pop-up Window"}
                 </h3>
@@ -203,7 +203,7 @@ const Averias = () => {
                 </button>
               </div>
 
-              <div className="grid grid-cols-2 gap-4 p-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4">
                 <div>
                   <label className="block text-[11px] font-bold text-black mb-1">Máquina</label>
                   <select
@@ -280,15 +280,15 @@ const Averias = () => {
                 />
               </div>
 
-              <div className="flex justify-start gap-4 p-4">
+              <div className="flex flex-col sm:flex-row justify-start gap-4 p-4">
                 <button
-                  className="bg-gray-400 text-white px-4 py-2 rounded-lg"
+                  className="bg-gray-400 text-white px-4 py-2 rounded-lg w-full sm:w-auto"
                   onClick={closeModal}
                 >
                   Cancelar
                 </button>
                 <button
-                  className="bg-blue-570 text-white px-4 py-2 rounded-lg"
+                  className="bg-blue-570 text-white px-4 py-2 rounded-lg w-full sm:w-auto"
                   onClick={handleSave}
                 >
                   Guardar
