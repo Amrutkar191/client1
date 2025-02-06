@@ -1,0 +1,452 @@
+[
+    {
+        "maquina": "Máquina4",
+        "orden": "OPG0043",
+        "motivo": "INSPECCIÓN",
+        "inicio": "2024-10-04 13:19:28",
+        "fin": "2024-10-18 14:44:05",
+        "duracion": "20244.62",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0037",
+        "motivo": "AVERÍA",
+        "inicio": "2024-10-02 05:33:05",
+        "fin": "2024-10-13 11:42:53",
+        "duracion": "16209.8",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina2",
+        "orden": "OPG0019",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-26 04:57:50",
+        "fin": "2024-10-30 17:28:23",
+        "duracion": "6510.55",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina3",
+        "orden": "OPG004",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-24 11:50:47",
+        "fin": "2024-10-29 04:55:03",
+        "duracion": "6784.27",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG0019",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-24 15:00:34",
+        "fin": "2024-10-27 03:10:26",
+        "duracion": "3609.87",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina2",
+        "orden": "OPG0020",
+        "motivo": "AVERÍA",
+        "inicio": "2024-10-14 06:10:07",
+        "fin": "2024-10-17 06:04:27",
+        "duracion": "4314.33",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG001",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-06 05:45:25",
+        "fin": "2024-10-23 20:08:07",
+        "duracion": "25342.7",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0038",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-26 02:38:50",
+        "fin": "2024-10-26 08:54:21",
+        "duracion": "375.52",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina2",
+        "orden": "OPG0041",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-10 09:46:12",
+        "fin": "2024-10-19 05:36:37",
+        "duracion": "12710.42",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina4",
+        "orden": "OPG0039",
+        "motivo": "AVERÍA",
+        "inicio": "2024-10-24 07:31:38",
+        "fin": "2024-10-26 18:09:04",
+        "duracion": "3517.43",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0025",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-21 13:46:38",
+        "fin": "2024-10-28 05:12:41",
+        "duracion": "9566.05",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina3",
+        "orden": "OPG0042",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-24 06:55:56",
+        "fin": "2024-10-26 23:17:13",
+        "duracion": "3861.28",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG0038",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-13 12:53:06",
+        "fin": "2024-10-30 01:30:15",
+        "duracion": "23797.15",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina3",
+        "orden": "OPG0030",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-12 02:27:06",
+        "fin": "2024-10-15 18:50:56",
+        "duracion": "5303.83",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina2",
+        "orden": "OPG0043",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-05 12:03:57",
+        "fin": "2024-10-11 13:17:46",
+        "duracion": "8713.82",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0045",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-16 06:06:10",
+        "fin": "2024-10-24 18:25:24",
+        "duracion": "12259.23",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina2",
+        "orden": "OPG0047",
+        "motivo": "AVERÍA",
+        "inicio": "2024-10-20 09:07:48",
+        "fin": "2024-10-24 08:11:24",
+        "duracion": "5703.6",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0042",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-07 20:27:24",
+        "fin": "2024-10-11 06:54:10",
+        "duracion": "4946.77",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0021",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-11 16:18:54",
+        "fin": "2024-10-28 08:24:43",
+        "duracion": "24005.82",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina2",
+        "orden": "OPG0013",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-12 17:22:17",
+        "fin": "2024-10-16 15:48:31",
+        "duracion": "5666.23",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina3",
+        "orden": "OPG0034",
+        "motivo": "INSPECCIÓN",
+        "inicio": "2024-10-03 16:06:37",
+        "fin": "2024-10-05 15:09:12",
+        "duracion": "2822.58",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina3",
+        "orden": "OPG0017",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-09 12:15:12",
+        "fin": "2024-10-27 08:07:18",
+        "duracion": "25672.1",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG0012",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-22 09:42:16",
+        "fin": "2024-10-26 02:59:43",
+        "duracion": "5357.45",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG0020",
+        "motivo": "AVERÍA",
+        "inicio": "2024-10-21 16:11:03",
+        "fin": "2024-10-24 17:46:28",
+        "duracion": "4415.42",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina3",
+        "orden": "OPG0047",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-18 01:39:13",
+        "fin": "2024-10-19 12:39:47",
+        "duracion": "2100.57",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG008",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-13 13:58:24",
+        "fin": "2024-10-27 19:20:36",
+        "duracion": "20482.2",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG0013",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-15 21:07:38",
+        "fin": "2024-10-18 01:58:43",
+        "duracion": "3171.08",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina2",
+        "orden": "OPG0035",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-06 11:10:55",
+        "fin": "2024-10-22 06:37:03",
+        "duracion": "22766.13",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG0011",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-03 03:13:48",
+        "fin": "2024-10-14 12:15:44",
+        "duracion": "16381.93",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0012",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-22 08:45:00",
+        "fin": "2024-10-25 10:10:01",
+        "duracion": "4405.02",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina4",
+        "orden": "OPG003",
+        "motivo": "AVERÍA",
+        "inicio": "2024-10-13 11:30:18",
+        "fin": "2024-10-14 05:01:49",
+        "duracion": "1051.52",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG0035",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-12 07:52:49",
+        "fin": "2024-10-14 09:09:31",
+        "duracion": "2956.7",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG006",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-10 17:28:07",
+        "fin": "2024-10-26 13:14:18",
+        "duracion": "22786.18",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina4",
+        "orden": "OPG0048",
+        "motivo": "INSPECCIÓN",
+        "inicio": "2024-10-26 15:46:55",
+        "fin": "2024-10-27 19:46:19",
+        "duracion": "1679.4",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina3",
+        "orden": "OPG0028",
+        "motivo": "AVERÍA",
+        "inicio": "2024-10-05 01:37:21",
+        "fin": "2024-10-19 16:25:12",
+        "duracion": "21047.85",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina3",
+        "orden": "OPG0012",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-07 20:53:07",
+        "fin": "2024-10-19 23:54:28",
+        "duracion": "17461.35",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina2",
+        "orden": "OPG0049",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-29 04:04:38",
+        "fin": "2024-10-29 06:48:31",
+        "duracion": "163.88",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0048",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-18 01:00:51",
+        "fin": "2024-10-23 00:50:44",
+        "duracion": "7189.88",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0031",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-20 23:44:35",
+        "fin": "2024-10-26 22:55:05",
+        "duracion": "8590.5",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0046",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-25 10:29:13",
+        "fin": "2024-10-26 13:45:52",
+        "duracion": "1636.65",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina4",
+        "orden": "OPG0031",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-24 09:43:46",
+        "fin": "2024-10-25 02:42:35",
+        "duracion": "1018.82",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina4",
+        "orden": "OPG0032",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-10 12:45:07",
+        "fin": "2024-10-25 11:30:55",
+        "duracion": "21525.8",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina2",
+        "orden": "OPG0036",
+        "motivo": "MANTENIMIENTO",
+        "inicio": "2024-10-03 22:58:42",
+        "fin": "2024-10-15 14:31:38",
+        "duracion": "16772.93",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina4",
+        "orden": "OPG0028",
+        "motivo": "CAMBIO",
+        "inicio": "2024-10-05 11:41:58",
+        "fin": "2024-10-29 21:49:16",
+        "duracion": "35167.3",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG0044",
+        "motivo": "AVERÍA",
+        "inicio": "2024-10-07 23:53:10",
+        "fin": "2024-10-13 11:32:18",
+        "duracion": "7899.13",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina3",
+        "orden": "OPG0050",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-01 04:34:00",
+        "fin": "2024-10-14 21:59:24",
+        "duracion": "19765.4",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina5",
+        "orden": "OPG0049",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-09 09:32:08",
+        "fin": "2024-10-20 22:38:05",
+        "duracion": "16625.95",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina4",
+        "orden": "OPG0011",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-25 22:58:54",
+        "fin": "2024-10-29 16:07:26",
+        "duracion": "5348.53",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina1",
+        "orden": "OPG0038",
+        "motivo": "AJUSTE",
+        "inicio": "2024-10-01 16:55:09",
+        "fin": "2024-10-14 06:19:33",
+        "duracion": "18084.4",
+        "comentarios": ""
+    },
+    {
+        "maquina": "Máquina4",
+        "orden": "OPG0013",
+        "motivo": "AVERÍA",
+        "inicio": "2024-10-16 11:38:30",
+        "fin": "2024-10-21 23:46:18",
+        "duracion": "7927.8",
+        "comentarios": ""
+    }
+]
