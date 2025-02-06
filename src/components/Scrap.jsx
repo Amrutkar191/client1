@@ -102,7 +102,7 @@ const Scrap = () => {
         <div className="mt-6 text-left">
           <button
             type="submit"
-            className="w-[170px] h-[35px] bg-blue-570 text-white text-sm font-medium rounded"
+            className="w-[170px] h-[35px] bg-blue-570 text-white text-sm font-medium rounded  hover:bg-blue-590"
           >
             Introducir Scrap
           </button>

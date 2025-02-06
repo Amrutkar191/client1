@@ -30,8 +30,8 @@
        >
          <div className="flex items-center justify-between px-4 h-[73px] border-b border-gray-200 bg-white">
            <img
-             src=""
-             className="h-[60px] w-[90px] md:h-[70px] md:w-[100px] object-cover"
+             src={logo}
+             className="h-[60px] w-[90px] md:h-[70px] md:w-[100px] object-contain"
              alt="Logo"
            />
            <span
@@ -52,7 +52,7 @@
              <li className="uppercase font-extrabold text-gray-700 flex justify-between items-center px-4 text-[12px]">
                <p>PRODUCCIÓN</p>
                <span
-                 className={`material-symbols-outlined text-blue-570 cursor-pointer transition-transform ${
+                 className={`material-symbols-outlined text-blue-580 cursor-pointer transition-transform ${
                    isProduccionOpen ? "rotate-180" : ""
                  }`}
                  onClick={toggleProduccion}
@@ -89,7 +89,7 @@
              <li className="uppercase font-extrabold text-gray-700 flex justify-between items-center px-4 text-[12px]">
                <p>CALIDAD</p>
                <span
-                 className={`material-symbols-outlined text-blue-570 cursor-pointer transition-transform ${
+                 className={`material-symbols-outlined text-blue-580 cursor-pointer transition-transform ${
                    isCalidadOpen ? "rotate-180" : ""
                  }`}
                  onClick={toggleCalidad}
@@ -123,7 +123,7 @@
              <li className="uppercase font-extrabold text-gray-700 flex justify-between items-center px-4 text-[12px]">
                <p>MANTENIMIENTO</p>
                <span
-                 className={`material-symbols-outlined text-blue-570 cursor-pointer transition-transform ${
+                 className={`material-symbols-outlined text-blue-580 cursor-pointer transition-transform ${
                    isMantenimientoOpen ? "rotate-180" : ""
                  }`}
                  onClick={toggleMantenimiento}

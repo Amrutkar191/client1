@@ -23,10 +23,10 @@ export default function LoginPage() {
     setLoading(true);
     try {
       const response = await axios.post("http://localhost:8000/auth/login", data);
-      
+
       if (response.status === 200 && response.data.token) {
         localStorage.setItem("token", response.data.token);
-        
+
         // Show success toast and navigate to dashboard
         toast.success("Login successful!", {
           position: "top-right",
@@ -117,10 +117,16 @@ export default function LoginPage() {
 
             <button
               type="submit"
-              className="w-full py-2 text-sm bg-blue-400 text-white rounded-md hover:bg-blue-500 transition duration-200"
+              className="w-full h-[35px] text-sm bg-blue-400 text-white rounded-md hover:bg-blue-500 transition duration-200"
               disabled={loading}
             >
-              {loading ? "Signing in..." : "Sign In"}
+              {loading ? <lord-icon
+                src="https://cdn.lordicon.com/mfblariy.json"
+                trigger="loop"
+                state="loop-cycle"
+                colors="primary:#ffffff,secondary:#ffffff"
+                style={{ width: '20px', height: '20px', padding:"2px" }}>
+              </lord-icon> : "Sign In"}
             </button>
           </form>
         </div>

@@ -69,7 +69,7 @@ export default function DashboardContent() {
 
         {!isdbo && (
           <table className="table-auto w-full mt-4 text-left border-collapse">
-            <thead className="bg-blue-570 text-white  ">
+            <thead className="bg-blue-580 text-white  ">
               <tr>
                 <th
                   className="p-2 md:p-3 text-[12px] sm:text-sm md:text-base font-semibold cursor-pointer rounded-tl-lg"

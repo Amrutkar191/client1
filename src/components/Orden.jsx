@@ -76,7 +76,7 @@ export default function Orden() {
         <div className="flex flex-col w-full sm:w-auto">
           <label className="invisible mb-1">Button</label>
           <button
-            className="w-full sm:w-[170px] h-[35px] bg-blue-500 text-white text-sm font-medium rounded"
+            className="w-full sm:w-[170px] h-[35px] bg-blue-570 text-white text-sm font-medium rounded  hover:bg-blue-590"
             onClick={handleStartOrder}
           >
             Iniciar Orden
@@ -94,7 +94,7 @@ export default function Orden() {
                 key={index}
                 onClick={() => handleTabChange(index)}
                 className={`text-[9px] font-normal px-2 py-2 rounded ${
-                  tabValue === index ? "bg-blue-500 text-white" : "text-gray-600"
+                  tabValue === index ? "bg-blue-580 text-white" : "text-gray-600"
                 }`}
               >
                 {label}
@@ -107,7 +107,7 @@ export default function Orden() {
         <div className="overflow-x-auto rounded border border-gray-100">
           <table className="min-w-full table-auto">
             <thead>
-              <tr className="bg-blue-500">
+              <tr className="bg-blue-580">
                 {[
                   "Máquina",
                   "Orden",
@@ -123,7 +123,7 @@ export default function Orden() {
                   >
                     <div className="flex items-center gap-2">
                       {header}
-                      <span className="material-symbols-outlined">unfold_more</span>
+                      <span className="material-symbols-outlined font-thin">unfold_more</span>
                     </div>
                   </th>
                 ))}

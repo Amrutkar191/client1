@@ -61,7 +61,7 @@ const orders = ["0F0001", "0F0002", "0F0003", "0F0004", "0F0005", "0F0006"];
     </div>
     <div className="ml-[12px]">
         <button
-            className="w-[20vw] lg:w-[15vw] h-[43px] bg-blue-500 text-white text-[10px] md:text-[12px] lg:text-[17px] font-medium focus:border-gray-600 rounded"
+            className="w-[20vw] lg:w-[15vw] h-[43px] bg-blue-570 text-white text-[10px] md:text-[12px] lg:text-[17px] font-medium focus:border-gray-600 rounded"
             onClick={handleStartOrder}
         >
            Introducir Consumo

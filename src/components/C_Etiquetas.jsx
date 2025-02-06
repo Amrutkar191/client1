@@ -1,5 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React ,{useState} from 'react'
+
+
+
+
 function C_Etiquetas() {
   const [selectedMachine, setSelectedMachine] = useState("");
   const [selectedOrder, setSelectedOrder] = useState("");
@@ -52,7 +56,7 @@ const orders = ["Etiqueta1", "Etiqueta2", "Etiqueta3", "Etiqueta4", "Etiqueta5",
     </div>
     <div className="ml-[12px]">
         <button
-            className="w-[20vw] lg:w-[15vw] h-[43px] bg-blue-500 text-white text-[10px] md:text-[12px] lg:text-[17px] font-medium focus:border-gray-600 rounded"
+            className="w-[20vw] lg:w-[15vw] h-[43px] bg-blue-570 text-white text-[10px] md:text-[12px] lg:text-[17px] font-medium focus:border-gray-600 rounded"
             onClick={handleStartOrder}
         >
            Imprimir etiquetas
