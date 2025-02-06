@@ -36,7 +36,7 @@ export default function Orden() {
       <div className="flex flex-wrap items-center gap-4 mb-6 bg-gray-200 rounded">
         {/* Machine Dropdown */}
         <div className="flex flex-col w-full sm:w-1/3">
-          <label className="block text-sm font-medium text-gray-900 mb-1">Máquina</label>
+          <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">Máquina</label>
           <select
             value={selectedMachine}
             onChange={(e) => setSelectedMachine(e.target.value)}
@@ -55,7 +55,7 @@ export default function Orden() {
 
         {/* Order Dropdown */}
         <div className="flex flex-col w-full sm:w-1/3">
-          <label className="block text-sm font-medium text-gray-900 mb-1">Orden</label>
+          <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">Orden</label>
           <select
             value={selectedOrder}
             onChange={(e) => setSelectedOrder(e.target.value)}

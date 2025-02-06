@@ -7,7 +7,7 @@ const Scrap = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* Máquina */}
           <div>
-            <label className="block text-[11px] font-bold text-gray-900 mb-1">
+            <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">
               Máquina
             </label>
             <select
@@ -21,7 +21,7 @@ const Scrap = () => {
 
           {/* Orden */}
           <div>
-            <label className="block text-[11px] font-bold text-gray-900 mb-1">
+            <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">
               Orden
             </label>
             <select
@@ -35,7 +35,7 @@ const Scrap = () => {
 
           {/* Producto */}
           <div>
-            <label className="block text-[11px] font-bold text-gray-900 mb-1">
+            <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">
               Producto
             </label>
             <input
@@ -47,7 +47,7 @@ const Scrap = () => {
 
           {/* Descripción */}
           <div className="col-span-1 sm:col-span-2 lg:col-span-3">
-            <label className="block text-[11px] font-bold text-gray-900 mb-1">
+            <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">
               Descripción
             </label>
             <input
@@ -59,7 +59,7 @@ const Scrap = () => {
 
           {/* Unidad */}
           <div>
-            <label className="block text-[11px] font-bold text-gray-900 mb-1">
+            <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">
               Unidad
             </label>
             <select
@@ -73,7 +73,7 @@ const Scrap = () => {
 
           {/* Tipo de defecto */}
           <div>
-            <label className="block text-[11px] font-bold text-gray-900 mb-1">
+            <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">
               Tipo de defecto
             </label>
             <select
@@ -87,7 +87,7 @@ const Scrap = () => {
 
           {/* Cantidad */}
           <div>
-            <label className="block text-[11px] font-bold text-gray-900 mb-1">
+            <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">
               Cantidad
             </label>
             <input

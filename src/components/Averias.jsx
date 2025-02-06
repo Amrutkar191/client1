@@ -63,26 +63,26 @@ const Averias = () => {
       {/* Filter Controls */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-4">
         <div>
-          <label className="block text-[11px] font-bold text-gray-900 mb-1">Máquina</label>
+          <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">Máquina</label>
           <select className="w-full h-[36px] pl-[8px] pr-[8px] bg-white text-xs outline-none font-normal text-gray-400 border border-gray-100 rounded">
             <option>Filtro Máquina</option>
           </select>
         </div>
         <div>
-          <label className="block text-[11px] font-bold text-gray-900 mb-1">Orden</label>
+          <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">Orden</label>
           <select className="w-full h-[36px] pl-[8px] pr-[8px] bg-white text-xs outline-none font-normal text-gray-400 border border-gray-100 rounded">
             <option>Filtro Orden</option>
           </select>
         </div>
         <div>
-          <label className="block text-[11px] font-bold text-gray-900 mb-1">Fecha Inicio</label>
+          <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">Fecha Inicio</label>
           <input
             type="date"
             className="w-full h-[36px] pl-[8px] pr-[8px] bg-white text-xs outline-none font-normal text-gray-400 border border-gray-100 rounded"
           />
         </div>
         <div>
-          <label className="block text-[11px] font-bold text-gray-900 mb-1">Fecha Fin</label>
+          <label className="block text-[11px] sm:text-[13px] md:text-[14px] lg:text-[15px] font-medium text-black mb-[2px]">Fecha Fin</label>
           <input
             type="date"
             className="w-full h-[36px] pl-[8px] pr-[8px] bg-white text-xs outline-none font-normal text-gray-400 border border-gray-100 rounded"
