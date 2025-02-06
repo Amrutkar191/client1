@@ -67,7 +67,7 @@ const orders = ["Etiqueta1", "Etiqueta2", "Etiqueta3", "Etiqueta4", "Etiqueta5",
   {/* Button Section */}
   <div className="flex justify-start lg:justify-start ml-[12px]">
     <button
-      className="md:w-[15vw] w-auto lg:w-[15vw]  h-[36px] bg-blue-570 text-white text-[10px] md:text-[12px] lg:text-[15px] font-medium hover:bg-blue-590 rounded"
+      className="md:w-[15vw] sm:w-[22vw] w-[95vw] lg:w-[15vw]  h-[36px] bg-blue-570 text-white text-[10px] md:text-[12px] lg:text-[15px] font-medium hover:bg-blue-590 rounded"
       onClick={handleStartOrder}
     >
       Imprimir etiquetas

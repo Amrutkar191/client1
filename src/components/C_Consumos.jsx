@@ -83,9 +83,9 @@ const orders = ["0F0001", "0F0002", "0F0003", "0F0004", "0F0005", "0F0006"];
     </div>
   
     {/* Button Section */}
-    <div className="flex justify-center sm:justify-start ml-[10px] lg:justify-start w-full mt-4">
+    <div className="flex justify-center sm:justify-start lg:justify-start w-full mt-4">
       <button
-       className="w-[15vw] lg:w-[15vw] h-[36px] bg-blue-570 text-white text-[10px] md:text-[12px] lg:text-[15px] font-medium hover:bg-blue-590 rounded"
+             className="md:w-[15vw] w-[95vw] sm:w-[22vw] lg:w-[15vw]  h-[36px] bg-blue-570 text-white text-[10px] md:text-[12px] lg:text-[15px] font-medium hover:bg-blue-590 rounded"
         onClick={handleStartOrder}
       >
         Imprimir etiquetas
